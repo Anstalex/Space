@@ -71,7 +71,8 @@ body {
 
 .video {
     height: 500px;
-    padding-top: 53px;
+    padding-top: 83px;
+    padding-bottom: 10px;
     max-width: 1230px;
     width: 90%;
     margin: 0 auto;
