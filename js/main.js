@@ -11,3 +11,6 @@ var instance = new vidbg('.video', {
 
 // Also can pass in optional settings block
 var rellax = new Rellax('.rocket');
+if(document.body.clientWidth < '576'){
+    rellax.destroy()
+}
